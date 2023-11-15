@@ -1,0 +1,356 @@
+/* css responsive */
+
+/* responsive tablet*/
+@media screen and (max-width: 1000px) {
+    header {
+        height: 60px;
+        margin-left: -10px;
+    }
+    .header-logo {
+        font-size: 18px;
+        margin-left: 0px;
+        margin-top: -35px;
+    }
+    .header-logo:hover {
+        font-size: 18px;
+    }
+    .header-left ul {
+        margin-right: 30px;
+        margin-top: 19px;
+    }
+    .header-left ul a {
+        font-size: 12px;
+        margin: 0px 10px;
+    }
+    .header-left ul a:hover {
+        font-size: 12px;
+        transition: all 0.1s;
+    }
+    main {
+        margin-top: -30px;
+    }
+    .home {
+        height: 400px;
+    }
+    .home article {
+        font-size: 33px;
+        margin-left: 90px;
+        margin-top: 130px;
+    }
+    .home article:hover {
+        font-size: 33px;
+    }
+    .text-1 span {
+        font-size: 16px;
+    }
+    .text-1 span:hover {
+        font-size: 14px;
+    }
+    #content img {
+        width: 240px;
+        height: 240px;
+        margin-right: 70px;
+        margin-top: 100px;
+    }
+    #content img:hover {
+        width: 240px;
+        height: 240px;
+        margin-right: 70px;
+        margin-top: 100px;
+    }
+    #content li a {
+        font-size: 10px;
+        padding: 8px 20px;
+        margin-left: 100px;
+        margin-top: 18px;
+    }
+    #content li a:hover {
+        padding: 8px 20px;
+        transition: all 0.1s;
+    }
+    .title1 {
+        margin-top: 100px;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .about .left {
+        margin-top: -20px;
+        margin-left: 110px;
+    }
+    .about-content .left img {
+        width: 220px;
+        height: 260px;
+        margin-left: 5px;
+        margin-top: 110px;
+    }
+    .about .right ul{
+        margin-left: 0px;
+        margin-top: -30px;
+    }
+    .about .right h2 {
+        font-size: 20px;
+    }
+    .about .right p{
+        font-size: 10px;
+        height: 0px;
+    }
+    .skill {
+        margin-top: -50px;
+    }
+    .skill ul {
+        margin-right: 30px;
+    }
+    .skill .title {
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .skill ul img {
+        width: 110px;
+        height: 130px; 
+    }
+    .skill ul li {
+        height: 250px;
+        width: 150px;
+        margin-top: 70px;
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+    .skill ul li span {
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .skill ul li:hover {
+        height: 255px;
+        width: 155px;
+        margin-top: 67px;
+    }
+    .contact {
+        height: 850px;
+    }
+    .contact .box {
+        margin-top: 100px;
+        width: 600px;
+        height: 500px;
+        border-radius: 50px;
+    }
+    input, textarea {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    textarea {
+        height: 300px;
+        width: 450px;
+    }
+    input {
+        margin: 50px 5px 10px 5px;
+        height: 20px;
+        width: 210px;
+    }
+    button {
+        height: 34px;
+        width: 110px;
+        border: 2px;
+        font-size: 12px;
+    }
+    button:hover {
+        height: 37px;
+        width: 113px;
+        margin-top: 17px;
+    }
+    .contact .footer{
+        font-size: 10px;
+        margin-top: 50px;
+        padding-top: 20px;
+    }
+    .contact .footer .wrapper .icon span{
+        height: 50px;
+        width: 50px;
+    }
+    .contact .footer .wrapper .icon i{
+        color: #fff;
+        font-size: 25px;
+        line-height: 60px;
+        margin-top: -5px;
+    }
+}
+
+/* responsive handphone */
+@media screen and (max-width:670px) {
+
+    header {
+        height: 50px;
+        margin-left: -10px;
+    }
+    .header-logo {
+        font-size: 15px;
+        margin-left: 0px;
+        margin-top: -30px;
+    }
+    .header-logo:hover {
+        font-size: 15px;
+    }
+    .header-left ul {
+        margin-right: 30px;
+        margin-top: 15px;
+    }
+    .header-left ul a {
+        font-size: 10px;
+        margin: 0px 5px;
+    }
+    .header-left ul a:hover {
+        font-size: 10px;
+        transition: all 0.1s;
+    }
+    main {
+        margin-top: -30px;
+    }
+    .home {
+        height: 400px;
+    }
+    .home article {
+        font-size: 25px;
+        margin-left: 30px;
+        margin-top: 170px;
+    }
+    .home article:hover {
+        font-size: 25px;
+    }
+    .text-1 span {
+        font-size: 12px;
+    }
+    .text-1 span:hover {
+        font-size: 14px;
+    }
+    #content img {
+        width: 200px;
+        height: 200px;
+        margin-right: 10px;
+        margin-top: 100px;
+    }
+    #content img:hover {
+        width: 200px;
+        height: 200px;
+        margin-right: 10px;
+        margin-top: 100px;
+    }
+    #content li a {
+        font-size: 10px;
+        padding: 4px 13px;
+        margin-left: 40px;
+        margin-top: 18px;
+    }
+    #content li a:hover {
+        padding: 4px 13px;
+        transition: all 0.1s;
+    }
+    .about {
+        margin-top: -40px;
+    }
+    .title1 {
+        margin-top: 40px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .about .left {
+        margin-left: 120px;
+    }
+    .about-content .left img {
+        width: 150px;
+        height: 190px;
+        margin-left: -70px;
+        margin-top: 80px;
+    }
+    .about .right ul{
+        margin-top: -120px;
+        margin-left: -50px;
+    }
+    .about .right h2 {
+        font-size: 17px;
+    }
+    .about .right p{
+        font-size: 10px;
+        height: 100px;
+    }
+    .skill {
+        margin-top: -150px;
+    }
+    .skill ul {
+        margin-right: 30px;
+    }
+    .skill .title {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .skill ul img {
+        width: 80px;
+        height: 100px; 
+    }
+    .skill ul li {
+        height: 200px;
+        width: 100px;
+        margin-top: 70px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .skill ul li span {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .skill ul li:hover {
+        height: 201px;
+        width: 101px;
+        margin-top: 67px;
+    }
+    .contact {
+        height: 800px;
+    }
+    .contact .box {
+        margin-top: 100px;
+        width: 400px;
+        height: 400px;
+        border-radius: 50px;
+    }
+    input, textarea {
+        border-radius: 15px;
+        outline: none;
+        padding: 10px 10px;
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    textarea {
+        height: 200px;
+        width: 300px;
+    }
+    input {
+        margin: 50px 5px 10px 5px;
+        height: 20px;
+        width: 135px;
+    }
+    button {
+        height: 27px;
+        width: 100px;
+        border: 2px;
+        font-size: 10px;
+    }
+    button:hover {
+        height: 30px;
+        width: 103px;
+        margin-top: 17px;
+    }
+    .contact .footer{
+        font-size: 10px;
+        margin-top: 100px;
+        padding-top: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .contact .footer .wrapper .icon span{
+        height: 40px;
+        width: 40px;
+    }
+    .contact .footer .wrapper .icon i{
+        color: #fff;
+        font-size: 20px;
+        line-height: 60px;
+        margin-top: -10px;
+    }
+} 
