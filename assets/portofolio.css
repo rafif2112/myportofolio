@@ -351,3 +351,7 @@ button:hover {
 .contact .footer .wrapper .github:hover span{
     background: #111;
 }
+.contact p {
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 600;
+}
