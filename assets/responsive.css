@@ -582,22 +582,22 @@
 
 @media screen and (max-width:450px) {
         .header-logo {
-            font-size: 13px;
+            font-size: 15px;
             margin-left: -28px;
-            margin-top: -33px;
+            margin-top: -34px;
         }
         .header-logo:hover {
-            font-size: 13px;
+            font-size: 15px;
         }
         .header-left ul {
             margin-right: 18px;
             margin-top: 15px;
         }
         .header-left ul a {
-            font-size: 12px;
+            font-size: 14px;
         }
         .header-left ul a:hover {
-            font-size: 12.5px;
+            font-size: 14.5px;
             transition: all 0.1s;
         }
         .home article {
@@ -774,6 +774,21 @@
         }
     } 
 @media screen and (max-width:390px) {
+    .header-logo {
+        font-size: 14px;
+        margin-left: -28px;
+        margin-top: -33px;
+    }
+    .header-logo:hover {
+        font-size: 14px;
+    }
+    .header-left ul a {
+        font-size: 13px;
+    }
+    .header-left ul a:hover {
+        font-size: 13.5px;
+        transition: all 0.1s;
+    }
     .about .right p{
         font-size: 10px;
         width: 100%;
