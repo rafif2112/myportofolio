@@ -100,7 +100,7 @@
     }
     .skill .title {
         font-size: 27px;
-        font-weight: 400;
+        font-weight: 600;
     }
     .skill ul img {
         width: 140px;
@@ -123,9 +123,9 @@
         margin-top: 67px;
     }
     .project .title {
-        margin:0px 0px 70px 0px;
+        margin:70px 0px 70px 0px;
         font-size: 27px;
-        font-weight: 400;
+        font-weight: 600;
     }
     .project .serv-content .card2{
         width: 180px;
@@ -190,7 +190,7 @@
     .header-logo {
         font-size: 20px;
         margin-left: 0px;
-        margin-top: -39px;
+        margin-top: -40px;
     }
     .header-logo:hover {
         font-size: 22px;
@@ -200,11 +200,11 @@
         margin-top: 19px;
     }
     .header-left ul a {
-        font-size: 14px;
+        font-size: 16px;
         margin: 0px 10px;
     }
     .header-left ul a:hover {
-        font-size: 15px;
+        font-size: 17px;
         transition: all 0.1s;
     }
     main {
@@ -283,7 +283,7 @@
     }
     .skill .title {
         font-size: 25px;
-        font-weight: 400;
+        font-weight: 600;
     }
     .skill ul img {
         width: 110px;
@@ -306,9 +306,9 @@
         margin-top: 67px;
     }
     .project .title {
-        margin:0px 0px 70px 0px;
+        margin:70px 0px 70px 0px;
         font-size: 25px;
-        font-weight: 400;
+        font-weight: 600;
     }
     .project .serv-content .card2{
         width: 150px;
@@ -384,23 +384,23 @@
         margin-left: -10px;
     }
     .header-logo {
-        font-size: 17px;
+        font-size: 18px;
         margin-left: 0px;
-        margin-top: -35px;
+        margin-top: -36px;
     }
     .header-logo:hover {
-        font-size: 17px;
+        font-size: 18px;
     }
     .header-left ul {
         margin-right: 30px;
         margin-top: 15px;
     }
     .header-left ul a {
-        font-size: 14px;
-        margin: 0px 5px;
+        font-size: 15px;
+        margin: 0px 11px;
     }
     .header-left ul a:hover {
-        font-size: 10px;
+        font-size: 16px;
         transition: all 0.1s;
     }
     main {
@@ -473,13 +473,14 @@
     }
     .skill {
         margin-top: -150px;
+        height: 600px;
     }
     .skill ul {
         margin-right: 30px;
     }
     .skill .title {
         font-size: 20px;
-        font-weight: 400;
+        font-weight: 600;
     }
     .skill ul img {
         width: 100px;
@@ -502,9 +503,9 @@
         margin-top: 67px;
     }
     .project .title {
-        margin:0px 0px 70px 0px;
+        margin:70px 0px 70px 0px;
         font-size: 20px;
-        font-weight: 400;
+        font-weight: 600;
     }
     .project .serv-content .card2 i {
         font-size: 37px;
@@ -527,6 +528,7 @@
         font-size: 10px;
     }
     .contact {
+        margin-top: -40px;
         height: 800px;
     }
     .contact .box {
@@ -583,18 +585,19 @@
 @media screen and (max-width:450px) {
         .header-logo {
             font-size: 15px;
-            margin-left: -28px;
+            margin-left: -20px;
             margin-top: -34px;
         }
         .header-logo:hover {
             font-size: 15px;
         }
         .header-left ul {
-            margin-right: 18px;
+            margin-right: 12px;
             margin-top: 15px;
         }
         .header-left ul a {
             font-size: 14px;
+            margin: 0 5px;
         }
         .header-left ul a:hover {
             font-size: 14.5px;
@@ -650,20 +653,26 @@
             margin-left: -10px;
         }
         .about .right ul span {
-            color:white;
+            color: rgb(5, 134, 255);
         }
         .about .right ul{
             margin-top: -170px;
-            margin-left: -80px;
+            margin-left: -100px;
             margin-right: 60px;
         }
         .about .right p{
-            font-size: 10px;
-            width: 90%;
+            font-size: 12px;
+            width: 100%;
+        }
+        .about .right h2 {
+            font-size: 20px;
         }
         .skill {
             margin-top: -200px;
             height: 500px;
+        }
+        .skill .card {
+            margin-top: -30px;
         }
         .skill ul {
             margin-left: -25px;
@@ -672,7 +681,7 @@
         }
         .skill .title {
             font-size: 20px;
-            font-weight: 400;
+            font-weight: 600;
         }
         .skill ul img {
             width: 80px;
@@ -695,9 +704,9 @@
             margin-top: 67px;
         }
         .project .title {
-            margin:0px 0px 70px 0px;
+            margin:70px 0px 70px 0px;
             font-size: 20px;
-            font-weight: 400;
+            font-weight: 600;
         }
         .project .serv-content .card2 i {
             font-size: 37px;
@@ -784,6 +793,7 @@
     }
     .header-left ul a {
         font-size: 13px;
+        margin: 0 5px;
     }
     .header-left ul a:hover {
         font-size: 13.5px;

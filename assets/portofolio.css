@@ -15,6 +15,8 @@ body {
 }
 html{
     scroll-behavior: smooth;
+    background-image: url(rm222batch2-mind-03.jpg);
+    background-attachment: fixed;
 }
 * {
     font-family: 'poppins', sans-serif;
@@ -41,14 +43,14 @@ li {
     text-decoration: none;
     color: rgba(5, 159, 255);
     font-weight: 700;
-    font-size: 17px;
+    font-size: 20px;
     transition: 0.3s;
     margin:0px 20px;
 }
 .header-left ul a:hover {
     color: rgb(0, 0, 0);
     transition: 0.3s;
-    font-size: 19.8px;
+    font-size: 21px;
 }
 
 .header-logo ul {
@@ -71,7 +73,6 @@ li {
     transition: 0.3s;
 }
 main {
-    background-color: rgb(255, 255, 255);
     margin-top: 0px;
     height: 800px;
     background-size: cover;
@@ -119,12 +120,12 @@ main {
     transition: 0.7s;
 }
 .about {
-    background-image: url(background\ about.png);
     height: 700px;
     top: 0;
 }
 .about-content .left img {
-    height: 350px;
+    width: 320px;
+    height: 380px;
     border-radius: 30px;
     margin-left: 170px;
     margin-top: 90px;
@@ -135,7 +136,7 @@ main {
     font-weight: 600;
     font-size: 37px;
     font-family: 'ubuntu', sans-serif;
-    color: rgb(5, 134, 255);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
 }
@@ -188,27 +189,23 @@ main {
 }
 
 .skill {
-    height: 700px;
-    background:#38b6ff;
+    height: 800px;
+    background:#38b6ff7d;
     margin-top: -180px;
 }
 .skill .title {
+    padding-top: 100px;
     margin-top: 320px;
     font-weight: 600;
     font-size: 37px;
     font-family: 'ubuntu', sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
-    -webkit-text-stroke: 1px white;
 }
 .skill ul {
     display: flex;
     justify-content: center;
-}
-.skill ul img .js {
-    height: 210px; 
-    width: 150px;
 }
 .skill ul li {
     background-color: white;
@@ -233,32 +230,31 @@ main {
     margin-top: 90px;
 }
 .project {
-    background-image: url(background.png);
     height: 700px;
     margin-top: -5px;
 }
 .project .title {
     font-weight: 600;
+    margin: 70px 0px 70px 0px;
     font-size: 37px;
     font-family: 'ubuntu', sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
-    -webkit-text-stroke: 1px white;
 }
 .project .serv-content .card2{
     width: calc(25% - 20px);
-    background: rgb(255, 255, 255);
+    background: rgb(133, 221, 255);
     text-align: center;
     margin-bottom: 40px;
     border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px 5px, rgba(0, 0, 0, 0.05) 0px 4px 6px 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     padding: 20px 25px;
     cursor: pointer;
 }
 .project .serv-content .card2:hover{
     transition: all 0.3s;
-    background: rgb(147, 224, 255);
+    background: rgb(223, 246, 255);
 }
 .project .serv-content .card2 .box{
     transition: all 0.5s ease;
@@ -269,11 +265,11 @@ main {
 .project .serv-content .card2 i{
     margin-top: 20px;
     font-size: 50px;
-    color: skyblue;
+    color: rgb(255, 255, 255);
     transition: color 0.3s ease;
 }
 .project .serv-content .card2:hover i{
-    color: #fff;
+    color: rgb(0, 183, 255);
 }
 .project .serv-content .card2 .text{
     font-size: 20px;
@@ -301,11 +297,11 @@ main {
 }
 .contact .box {
     margin-top: 100px;
-    background-color: #38b6ff;
+    background-color: #00a2ff65;
     width: 1300px;
     height: 700px;
     border-radius: 80px;
-    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.3)
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3)
 }
 .contact .big-box {
     display: flex;
