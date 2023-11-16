@@ -1,5 +1,186 @@
 /* css responsive */
 
+/* reponsive laptop M */
+@media screen and (max-width: 1230px) {
+    header {
+        height: 70px;
+        margin-left: -10px;
+    }
+    .header-logo {
+        font-size: 23px;
+        margin-left: 0px;
+        margin-top: -48px;
+    }
+    .header-logo:hover {
+        font-size: 24px;
+    }
+    .header-left ul {
+        margin-right: 30px;
+        margin-top: 25px;
+    }
+    .header-left ul a {
+        font-size: 16px;
+    }
+    .header-left ul a:hover {
+        font-size: 17px;
+    }
+    main {
+        margin-top: -30px;
+    }
+    .home {
+        height: 400px;
+    }
+    .home article {
+        font-size: 49px;
+        margin-left: 80px;
+        margin-top: 100px;
+    }
+    .home article:hover {
+        font-size: 52px;
+    }
+    .text-1 span {
+        font-size: 20px;
+    }
+    .text-1 span:hover {
+        font-size: 22px;
+    }
+    #content img {
+        width: 260px;
+        height: 260px;
+        margin-right: 80px;
+        margin-top: 100px;
+    }
+    #content img:hover {
+        width: 265px;
+        height: 265px;
+        margin-right: 80px;
+        margin-top: 100px;
+    }
+    #content li a {
+        font-size: 16px;
+        padding: 10px 18px;
+        margin-left: 100px;
+        margin-top: 18px;
+    }
+    #content li a:hover {
+        padding: 12px 20px;
+        transition: all 0.1s;
+    }
+    .title1 {
+        margin-top: 100px;
+        font-weight: 600;
+        font-size: 27px;
+    }
+    .about .left {
+        margin-top: -20px;
+        margin-left: 140px;
+    }
+    .about-content .left img {
+        width: 240px;
+        height: 280px;
+        margin-left: -10px;
+        margin-top: 110px;
+    }
+    .about .right ul{
+        margin-left: -20px;
+        margin-top: -60px;
+    }
+    .about .right h2 {
+        font-size: 23px;
+    }
+    .about .right p{
+        font-size: 13px;
+        height: 0px;
+    }
+    .skill {
+        margin-top: -50px;
+    }
+    .skill ul {
+        margin-right: 30px;
+    }
+    .skill .title {
+        font-size: 27px;
+        font-weight: 400;
+    }
+    .skill ul img {
+        width: 140px;
+        height: 170px; 
+    }
+    .skill ul li {
+        height: 300px;
+        width: 200px;
+        margin-top: 70px;
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+    .skill ul li span {
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .skill ul li:hover {
+        height: 255px;
+        width: 155px;
+        margin-top: 67px;
+    }
+    .project .title {
+        margin:0px 0px 70px 0px;
+        font-size: 27px;
+        font-weight: 400;
+    }
+    .project .serv-content .card2{
+        width: 180px;
+        height: 280px;
+    }
+    .contact {
+        height: 850px;
+    }
+    .contact .box {
+        margin-top: 100px;
+        width: 600px;
+        height: 500px;
+        border-radius: 50px;
+    }
+    input, textarea {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    textarea {
+        height: 300px;
+        width: 450px;
+    }
+    input {
+        margin: 50px 5px 10px 5px;
+        height: 20px;
+        width: 210px;
+    }
+    button {
+        height: 34px;
+        width: 110px;
+        border: 2px;
+        font-size: 12px;
+    }
+    button:hover {
+        height: 37px;
+        width: 113px;
+        margin-top: 17px;
+    }
+    .contact .footer{
+        font-size: 10px;
+        margin-top: 50px;
+        padding-top: 20px;
+    }
+    .contact .footer .wrapper .icon span{
+        height: 50px;
+        width: 50px;
+    }
+    .contact .footer .wrapper .icon i{
+        color: #fff;
+        font-size: 25px;
+        line-height: 60px;
+        margin-top: -5px;
+    }
+}
+
 /* responsive tablet*/
 @media screen and (max-width: 1000px) {
     header {
@@ -123,6 +304,27 @@
         height: 255px;
         width: 155px;
         margin-top: 67px;
+    }
+    .project .title {
+        margin:0px 0px 70px 0px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .project .serv-content .card2{
+        width: 150px;
+        height: 250px;
+    }
+    .serv-content {
+        margin: 20px 35px 20px 35px;
+    }
+    .serv-content:hover {
+        margin: 20px 35px 20px 35px;
+    }
+    .project .serv-content .card2 .text{
+        font-size: 16px;
+    }
+    .project .serv-content .card2 p {
+        font-size: 14px;
     }
     .contact {
         height: 850px;
@@ -299,6 +501,31 @@
         width: 182px;
         margin-top: 67px;
     }
+    .project .title {
+        margin:0px 0px 70px 0px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .project .serv-content .card2 i {
+        font-size: 37px;
+    }
+    .project .serv-content .card2{
+        width: 100px;
+        height: 200px;
+        border-radius: 15px;
+    }
+    .serv-content {
+        margin: 20px 35px 20px 35px;
+    }
+    .serv-content:hover {
+        margin: 20px 35px 20px 35px;
+    }
+    .project .serv-content .card2 .text{
+        font-size: 15px;
+    }
+    .project .serv-content .card2 p {
+        font-size: 10px;
+    }
     .contact {
         height: 800px;
     }
@@ -357,7 +584,7 @@
         .header-logo {
             font-size: 13px;
             margin-left: -28px;
-            margin-top: -32px;
+            margin-top: -33px;
         }
         .header-logo:hover {
             font-size: 13px;
@@ -367,10 +594,10 @@
             margin-top: 15px;
         }
         .header-left ul a {
-            font-size: 11px;
+            font-size: 12px;
         }
         .header-left ul a:hover {
-            font-size: 10px;
+            font-size: 12.5px;
             transition: all 0.1s;
         }
         .home article {
@@ -436,6 +663,7 @@
         }
         .skill {
             margin-top: -200px;
+            height: 500px;
         }
         .skill ul {
             margin-left: -25px;
@@ -466,11 +694,36 @@
             width: 101px;
             margin-top: 67px;
         }
+        .project .title {
+            margin:0px 0px 70px 0px;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .project .serv-content .card2 i {
+            font-size: 37px;
+        }
+        .project .serv-content .card2{
+            width: 100px;
+            height: 200px;
+        }
+        .serv-content {
+            margin: 20px 35px 20px 35px;
+        }
+        .serv-content:hover {
+            margin: 20px 35px 20px 35px;
+        }
+        .project .serv-content .card2 .text{
+            font-size: 15px;
+        }
+        .project .serv-content .card2 p {
+            font-size: 10px;
+        }
         .contact {
-            height: 800px;
+            margin-top: 300px;
+            height: 620px;
         }
         .contact .box {
-            margin-top: 100px;
+            margin-top: 70px;
             width: 330px;
             height: 350px;
             border-radius: 30px;
@@ -505,7 +758,7 @@
         }
         .contact .footer{
             font-size: 10px;
-            margin-top: 100px;
+            margin-top: 50px;
             padding-top: 20px;
             font-family: 'Poppins', sans-serif;
         }
@@ -520,3 +773,24 @@
             margin-top: -10px;
         }
     } 
+@media screen and (max-width:390px) {
+    .about .right p{
+        font-size: 10px;
+        width: 100%;
+    }
+    .about .right ul{
+        margin-top: -170px;
+        margin-left: -100px;
+        margin-right: 60px;
+    }
+    .project .serv-content .card2{
+        width: 93px;
+        height: 190px;
+    }
+    .serv-content {
+        margin: 20px 25px 20px 25px;
+    }
+    .serv-content:hover {
+        margin: 20px 25px 20px 25px;
+    }
+}
