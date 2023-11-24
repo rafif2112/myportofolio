@@ -15,8 +15,6 @@ body {
 }
 html{
     scroll-behavior: smooth;
-    background-image: url(background10.jpg);
-    background-attachment: fixed;
 }
 * {
     font-family: 'poppins', sans-serif;
@@ -68,13 +66,15 @@ li {
 .header-logo span {
     color: rgba(5, 159, 255);
 }
-.header-logo:hover {
+/* .header-logo:hover {
     font-size: 33px;
     transition: 0.3s;
-}
+} */
 main {
     margin-top: 0px;
     height: 800px;
+    background-image: url(background10.jpg);
+    background-attachment: fixed;
     background-size: cover;
 }
 #content img {
@@ -224,7 +224,7 @@ main {
     font-weight: 700;
 }
 .skill ul li:hover {
-    background-color: rgb(243, 236, 236);
+    background-color: rgb(245, 245, 245);
     height: 360px;
     width: 260px;
     margin-top: 90px;
@@ -295,7 +295,7 @@ main {
 .contact .box {
     margin-top: 100px;
     background-color: #00a2ff65;
-    width: 1300px;
+    width: 1200px;
     height: 700px;
     border-radius: 80px;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3)
@@ -406,5 +406,5 @@ button:hover {
 }
 .contact p {
     font-family: 'ubuntu', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
 }
