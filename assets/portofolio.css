@@ -31,13 +31,13 @@ header {
 li {
     list-style: none;
 }
-.header-left ul {
+.header-left .navbar ul {
     display: flex;
     justify-content: flex-end;
-    margin-top: 30px;
+    margin-top: -55px;
     margin-right:70px ;
 }
-.header-left ul a {
+.header-left .navbar ul a {
     text-decoration: none;
     color: rgba(5, 159, 255);
     font-weight: 700;
@@ -45,16 +45,56 @@ li {
     transition: 0.3s;
     margin:0px 20px;
 }
-.header-left ul a:hover {
+.header-left .navbar ul a:hover {
     color: rgb(0, 0, 0);
     transition: 0.3s;
     font-size: 21px;
 }
 
+/* dropdown */
+
+.list-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list-menu .dropdown ul {
+    display: none;
+}
+
+.dropdown ul {
+    display: block;
+    margin-top: 30px;
+    margin-right:70px ;
+}
+.dropdown ul a{
+    text-decoration: none;
+    color: rgba(5, 159, 255);
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.3s;
+    margin:0px 20px;
+}
+.dropdown ul a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    font-size: 21px;
+}
+
+.dropdown ul li ul a{
+    display: none;
+}
+
+.dropdown ul li:hover > ul li a{
+    display: block;
+}
+
+/* pembatas */
+
 .header-logo ul {
     display: flex;
     justify-content: flex-start;
-    margin-top: -45px;
+    margin-top: 20px;
 }
 .header-logo {
     color: rgb(0, 0, 0);
