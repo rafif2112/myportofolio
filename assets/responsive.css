@@ -584,12 +584,12 @@
 
 @media screen and (max-width:450px) {
         .header-logo {
-            font-size: 15px;
+            font-size: 20px;
             margin-left: -20px;
             margin-top: -5px;
         }
         .header-logo:hover {
-            font-size: 15px;
+            font-size: 20px;
         }
         .header-left .navbar ul {
             display: none;
@@ -618,21 +618,21 @@
 
     .dropdown ul {
         display: block;
-        margin-top: -35px;
+        margin-top: -40px;
         margin-right:10px ;
     }
     .dropdown ul a{
         text-decoration: none;
         color: rgba(5, 159, 255);
         font-weight: 700;
-        font-size: 15px;
+        font-size: 18px;
         transition: 0.3s;
         margin:0px 20px;
     }
     .dropdown ul a:hover {
         color: rgb(0, 0, 0);
         transition: 0.3s;
-        font-size: 16px;
+        font-size: 19px;
     }
 
     .dropdown ul ul {
@@ -644,8 +644,8 @@
         margin-top: 10px;
         margin-left: -100px;
         background-color: white;
-        border-radius: 15px;
-        height: 150px;
+        border-radius: 0px 0px 15px 15px;
+        height: 170px;
     }
     .dropdown ul li:hover > ul li a{
         margin-top: 10px;
@@ -835,18 +835,26 @@
     } 
 @media screen and (max-width:390px) {
     .header-logo {
-        font-size: 15px;
+        font-size: 20px;
         margin-left: -20px;
         margin-top: -5px;
     }
     .header-logo:hover {
-        font-size: 15px;
+        font-size: 20px;
     }
     .header-left .navbar ul {
         display: none;
         margin-right: 12px;
         margin-top: 15px;
     }
+    /* .header-left .navbar ul a {
+        font-size: 14px;
+        margin: 0 5px;
+    }
+    .header-left .navbar ul a:hover {
+        font-size: 14.5px;
+        transition: all 0.1s;
+    } */
 
     /* dropdown */
 
@@ -861,21 +869,21 @@
 
 .dropdown ul {
     display: block;
-    margin-top: -35px;
+    margin-top: -40px;
     margin-right:10px ;
 }
 .dropdown ul a{
     text-decoration: none;
     color: rgba(5, 159, 255);
     font-weight: 700;
-    font-size: 15px;
+    font-size: 18px;
     transition: 0.3s;
     margin:0px 20px;
 }
 .dropdown ul a:hover {
     color: rgb(0, 0, 0);
     transition: 0.3s;
-    font-size: 16px;
+    font-size: 19px;
 }
 
 .dropdown ul ul {
@@ -887,8 +895,8 @@
     margin-top: 10px;
     margin-left: -100px;
     background-color: white;
-    border-radius: 15px;
-    height: 150px;
+    border-radius: 0px 0px 15px 15px;
+    height: 170px;
 }
 .dropdown ul li:hover > ul li a{
     margin-top: 10px;
