@@ -12,7 +12,7 @@ contactForm.addEventListener("submit", function (e) {
         mode: "no-cors",
     })
         .then(() => {
-            window.location.href = "https://rafif21.netlify.app/";
+            window.location.href = "index.html";
         })
-        .catch((e) => alert("Error occured"));
+        .catch((e) => alert("Tidak Dapat Mengirim pesan, Periksa koneksi inernet anda!"));
 }); 
