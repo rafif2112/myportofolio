@@ -156,17 +156,19 @@
             <div class="title1">Contact me!</div>
             <div class="big-box">
                 <div class="box">
-                    <form action="#">
+
+                    
+                    <form id="contact-form" action="https://formspree.io/f/mjvqqywd" method="POST">
                         <div class="input-data">
                             <div class="field name">
-                                <input type="text" placeholder="Name" class="satu" required>
+                                <input type="text" placeholder="Name" class="satu" name="username" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" class="dua" required>
+                                <input type="email" placeholder="Email" class="dua" name="email" required>
                             </div>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Sebject..." class="empat" required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Sebject..." class="empat" name="subject" required></textarea>
                         </div>
                         <div class="button">
                             <button type="submit">Send message</button>
@@ -197,5 +199,6 @@
             </div>
         </section>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
