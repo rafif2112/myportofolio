@@ -16,7 +16,6 @@ body {
 html{
     scroll-behavior: smooth;
     background-color: whitesmoke;
-    
 }
 * {
     font-family: 'poppins', sans-serif;
@@ -25,7 +24,8 @@ html{
 }
 header {
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.364);
+    backdrop-filter: blur(16px);
     height: 80px;
     margin-left: -8px;
     position: fixed;
@@ -109,17 +109,9 @@ li {
 .header-logo span {
     color: rgba(5, 159, 255);
 }
-/* .header-logo:hover {
-    font-size: 33px;
-    transition: 0.3s;
-} */
 main {
     margin-top: -20px;
     height: 800px;
-    /* background-image: url(background10.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center; */
 }
 #content img {
     width: 350px;
