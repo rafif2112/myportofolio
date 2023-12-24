@@ -627,6 +627,11 @@
             background-color: rgb(189, 231, 248);
             transition: all 0.3s;
         }
+        .services .tulisan-1 {
+            width: 150px;
+            height: 40px;
+            margin: 15px 0px 0px 65px;
+        }
         /* services */
 
 
@@ -658,12 +663,6 @@
             margin-top: 300px;
             height: 620px;
         }
-        .contact .box {
-            margin-top: 70px;
-            width: 330px;
-            height: 350px;
-            border-radius: 30px;
-        }
         input, textarea {
             border-radius: 10px;
             outline: none;
@@ -673,16 +672,16 @@
         }
         textarea {
             height: 180px;
-            width: 280px;
+            width: 332px;
         }
         input {
-            margin: 50px 5px 10px 5px;
+            margin: -10px 2px 5px 2px;
             height: 20px;
-            width: 125px;
+            width: 155px;
         }
         button {
-            height: 27px;
-            width: 100px;
+            height: 37px;
+            width: 120px;
             border: 2px;
             font-size: 10px;
             margin-top: 15px;
@@ -694,16 +693,17 @@
         }
         .contact .footer{
             font-size: 10px;
-            margin-top: 50px;
+            margin-top: -50px;
             padding-top: 20px;
             font-family: 'Poppins', sans-serif;
         }
         .contact .footer .wrapper .icon span{
             height: 40px;
             width: 40px;
+            margin-left:-10px;
+            margin-right: -10px;
         }
         .contact .footer .wrapper .icon i{
-            color: #fff;
             font-size: 20px;
             line-height: 60px;
             margin-top: -10px;
@@ -764,7 +764,7 @@
     background-color: rgba(255, 255, 255, 0.364);
     backdrop-filter: blur(16px);
     border-radius: 0px 0px 15px 15px;
-    height: 170px;
+    height: 183px;
 }
 .dropdown ul li:hover > ul li a{
     margin-top: 10px;
@@ -791,5 +791,10 @@
     }
     .serv-content:hover {
         margin: 20px 25px 20px 25px;
+    }
+    .services .tulisan-1 {
+        width: 150px;
+        height: 40px;
+        margin: 15px 0px 0px 65px;
     }
 }
